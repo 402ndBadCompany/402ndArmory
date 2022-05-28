@@ -215,7 +215,7 @@ class CfgWeapons
 			hiddenSelectionsMaterials[]={"V_FZ_Armor\Data\Helmets\Materials\V_S1ONIR.rvmat","V_FZ_Armor\Data\Helmets\Materials\V_S1ONIR_V.rvmat"};
 		};
 	
-	class 402nd_CH252R_dp: OPTRE_UNSC_CH252D_Helmet_dp
+	class 402nd_CH252R_dp: 402nd_CH252D_dp
 	{
 		author="Azzamean & Vespade"
 		displayName="[402nd] CH252R Helmet";
