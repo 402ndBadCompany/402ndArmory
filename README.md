@@ -1,4 +1,4 @@
-# 402nd Bad COmpany Armory
+# 402nd Bad Company Armory
 This github is a public repository for the 402nd Armory.
 
 <br /> **//--// Git Description //--//** <br />
