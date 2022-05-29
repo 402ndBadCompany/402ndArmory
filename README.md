@@ -1,5 +1,6 @@
-# 402nd Bad Company Armory
+# 402nd Bad COmpany Armory
 This github is a public repository for the 402nd Armory.
+
 <br /> **//--// Git Description //--//** <br />
 This repository is for an Arma 3 unit armor mod, music mod, and custom factions mod using OPTRE, OPCAN, and [Fireteam Zulu](https://github.com/vespade/Zulu) overhaul.
 
@@ -11,6 +12,10 @@ The main branch is the most up to date version of the armory mod.
 ## How To Use 402nd Music
 The main branch is the most up to date version of the music mod.
 <br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2632313882) mod and enable in your A3 launcher. <br />
+
+## How To Use ALiVE Factions
+The main branch is the most up to date version of the factions mod.
+<br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2535351854) mod and enable in your A3 launcher. <br />
 
 ### Helpful Git Bash Commands to Remember
 <br /> ``` git clone [link] ``` <br />
