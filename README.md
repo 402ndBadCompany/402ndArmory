@@ -1,12 +1,12 @@
 # 402nd Bad COmpany Armory
 This github is a public repository for the 402nd Armory.
-
-<br /> **Git Desc** <br />
+<br /> **Git Description**
 This repository is for an Arma 3 unit mod that includes retextures of various armor from the OPTRE overhaul mod.
 
 ## How To Use
-the main branch is the most up to date version of the armory mod.
-<br /> For manual use: download the zip and install the Packaged PBO into your modlist <br />
+The main branch is the most up to date version of the armory mod.
+<br /> **For Manual Use:** Download the zip and install the Packaged PBO into your A3 modlist. <br />
+<br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2378333056) mod and enable in your A3 launcher. <br />
 
 ### Helpful Git Bash Commands to Remember
 <br /> ``` git clone [link] ``` <br />
@@ -25,3 +25,5 @@ the main branch is the most up to date version of the armory mod.
 	<br /> *Git push sends the current updates to the github repo. Link is used to copy the destination for the push.* <br />
 <br /> ``` git pull [link] ``` <br />
 	<br /> *Git pull sends the data from the git repo to your local repository.* <br />
+    <br /> ``` git merge [branch name 1] [branch name 2] ``` <br />
+	<br /> *merges branch 1 to branch 2* <br />
