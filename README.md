@@ -1,2 +1,27 @@
-# 402ndArmory
-Arma mod
+# 402nd Bad COmpany Armory
+This github is a public repository for the 402nd Armory.
+
+<br /> **Git Desc** <br />
+This repository is for an Arma 3 unit mod that includes retextures of various armor from the OPTRE overhaul mod.
+
+## How To Use
+the main branch is the most up to date version of the armory mod.
+<br /> For manual use: download the zip and install the Packaged PBO into your modlist <br />
+
+### Helpful Git Bash Commands to Remember
+<br /> ``` git clone [link] ``` <br />
+	<br /> *Clones a git repo to your local computer for use. Link referes to the link you can copy from the green code drop down.*<br />
+<br /> ``` git status ``` <br />
+	<br /> *Status of the current local repo.*<br />
+<br /> ``` git add ``` <br />
+	<br /> *Add files to push "." adds all files.<br />
+<br /> ``` git branch "branch name" ``` <br />
+	<br /> *Generate a new timeline to branch to.*<br />
+<br /> ``` git checkout "branch name" ``` <br />
+	<br /> *Choose what branch to swap to and work with.<br />
+<br /> ``` git commit -m "message" ``` <br />
+	<br /> *Adds a single line message to files being commited to the branch.* <br />
+<br /> ``` git push [link] ```<br />
+	<br /> *Git push sends the current updates to the github repo. Link is used to copy the destination for the push.* <br />
+<br /> ``` git pull [link] ``` <br />
+	<br /> *Git pull sends the data from the git repo to your local repository.* <br />
