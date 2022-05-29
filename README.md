@@ -1,6 +1,6 @@
-# 402nd Bad COmpany Armory
+# 402nd Bad Company Armory
 This github is a public repository for the 402nd Armory.
-<br /> **Git Description**
+<br /> **//--// Git Description //--//** <br />
 This repository is for an Arma 3 unit mod that includes retextures of various armor from the OPTRE overhaul mod.
 
 ## How To Use
