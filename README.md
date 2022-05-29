@@ -1,12 +1,16 @@
 # 402nd Bad Company Armory
 This github is a public repository for the 402nd Armory.
 <br /> **//--// Git Description //--//** <br />
-This repository is for an Arma 3 unit mod that includes retextures of various armor from the OPTRE overhaul mod.
+This repository is for an Arma 3 unit armor mod, music mod, and custom factions mod using OPTRE, OPCAN, and [Fireteam Zulu](https://github.com/vespade/Zulu) overhaul.
 
-## How To Use
+## How To Use 402nd Armory
 The main branch is the most up to date version of the armory mod.
-<br /> **For Manual Use:** Download the zip and install the Packaged PBO into your A3 modlist. <br />
+<br /> **For Manual Use:** Download the zip and install the 02 Packaged PBO into your A3 modlist. <br />
 <br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2378333056) mod and enable in your A3 launcher. <br />
+
+## How To Use 402nd Music
+The main branch is the most up to date version of the music mod.
+<br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2632313882) mod and enable in your A3 launcher. <br />
 
 ### Helpful Git Bash Commands to Remember
 <br /> ``` git clone [link] ``` <br />
