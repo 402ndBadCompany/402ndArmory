@@ -1,0 +1,19 @@
+{
+	"title": "402ndArmory",
+	"name": "402nd Armory",
+	"author": "BoomMicGuy",
+	"website": "402nd_Armory.pbo",
+	"version": "0.0.1",
+	"buildPath": "build",
+	"privateKey": "",
+	"serverDirs": [
+		"src/server_core",
+		"src/server_config"
+	],
+	"serverUse32bit": false,
+	"clientDirs": [
+		"src/client"
+	],
+	"clientMods": [],
+	"ftpConnection": {}
+}
