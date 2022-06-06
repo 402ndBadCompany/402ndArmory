@@ -1,33 +1,8 @@
 //CfgPatches
-class CfgPatches
-{
-	class 402nd_Armory
-	{
-		author="Azzamean, Vespade & BoomMicGuy"
-		name="402nd Armory"
-		url="https://discord.gg/fa7Cguk";
-		// Added Items
-		units[]={};
-		weapons[]={};
-		magazines[]={};
-		ammo[]={};
-		// Requirements
-		requiredVersion=0.1;
-		requiredAddons[]=
-		{"V_FZ_Armor","V_FZ_Core","OPTRE_UNSC_Units_Army"};
-	};
-};
+#include "CfgPatches.hpp"
+
 // CfgAddons
-class CfgAddons
-{
-	class PreloadAddons
-	{
-		class 402nd_Armory
-		{
-			list[]={"402nd_Armory"};
-		};
-	};
-};
+#include "CfgAddons.hpp"
 
 // ADDING ITEMS TO EDITOR
 class CfgEditorCategories
@@ -117,7 +92,7 @@ class CfgWeapons
 		ace_hearing_lowerVolume=0.60;
 		displayName="[402nd] [B] CH252D Helmet";
 		hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_BC_CO", "402nd_Armory\data\headgear\Visors\ODSTVisor_BC_CO"};
-		hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_CH252D.rvmat", "V_FZ_Armor\data\Helmets\Materials\V_CH252D_V.rvmat"};
+		hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_CH252D.rvmat", ""}; // V_FZ_Armor\data\Helmets\Materials\V_CH252D_V.rvmat (removed path to hopefully make the visor look nicer)
 		CBRN_protection=1;
 		class ItemInfo: HeadgearItem 
 		{
@@ -126,7 +101,7 @@ class CfgWeapons
 			picture="\OPTRE_UNSC_Units\Army\icons\odst_helmet";
 			hiddenSelections[]={"camo","camo2"};
 			hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_BC_CO", "402nd_Armory\data\headgear\Visors\ODSTVisor_BC_CO"};
-			hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_CH252D.rvmat", "V_FZ_Armor\data\Helmets\Materials\V_CH252D_V.rvmat"};
+			hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_CH252D.rvmat", ""};  // V_FZ_Armor\data\Helmets\Materials\V_CH252D_V.rvmat (removed path to hopefully make the visor look nicer)
 			class HitpointsProtectionInfo
 			{
 				class Face {armor=25; hitpointName="HitFace"; passThrough=0.1;};
@@ -150,7 +125,7 @@ class CfgWeapons
 		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_BC_Leafy_CO", "402nd_Armory\data\headgear\Visors\ODSTVisor_BC_CO"};};
 	};
 
-	/*
+	/* WIP SNOW GEAR
 	class 402nd_CH252D_Snow1: 402nd_CH252D
 	{
 		author="Azzamean, Vespade & BoomMicGuy";
@@ -298,14 +273,14 @@ class CfgWeapons
 		picture="\OPTRE_UNSC_Units\Army\icons\odst_recon";
 		hiddenSelections[]={"camo","camo2"};
 		hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTRHelm_BC_CO", "402nd_Armory\data\headgear\Visors\ODSTRVisor_BC_CO"};
-		hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_S1ONIR.rvmat", "V_FZ_Armor\data\Helmets\Materials\V_S1ONIR_V.rvmat"};
+		hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_S1ONIR.rvmat", ""}; // V_FZ_Armor\data\Helmets\Materials\V_S1ONIR_V.rvmat (Removed this path to make visor look nicer)
 		class ItemInfo: ItemInfo
 		{
 			uniformModel="\OPTRE_UNSC_Units\Army\recon_helmet";
 			picture="\OPTRE_UNSC_Units\Army\icons\odst_recon";
 			hiddenSelections[]={"camo","camo2"};
 			hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTRHelm_BC_CO", "402nd_Armory\data\headgear\Visors\ODSTRVisor_BC_CO"};
-			hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_S1ONIR.rvmat", "V_FZ_Armor\data\Helmets\Materials\V_S1ONIR_V.rvmat"};
+			hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Helmets\Materials\V_S1ONIR.rvmat", ""}; // V_FZ_Armor\data\Helmets\Materials\V_S1ONIR_V.rvmat (Removed this path to make visor look nicer)
 		};
 	}; 
 	// END OF CH252R RECON
