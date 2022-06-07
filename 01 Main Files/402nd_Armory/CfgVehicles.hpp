@@ -17,7 +17,7 @@ class CfgVehicles
 		displayName="D77H-TCI/AV Pelican Magic Bus";
 		editorCategory="A_BD_EdCat_402nd";
 		editorSubcategory="A_BD_EdSubCat_Rotary";
-		hiddenSelectionsTextures[]={"402nd_Armory\data\vehicles\MURK_Pelican_Base.paa",};
+		hiddenSelectionsTextures[]={"\402nd_Armory\data\vehicles\MURK_Pelican_Base.paa",};
 	};
 };
 

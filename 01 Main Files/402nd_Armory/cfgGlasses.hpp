@@ -21,10 +21,10 @@ class cfgGlasses
 		ace_tintAmount = 0;
 		ace_resistance = 0.5;
 		ace_protection = 0.5;
-		ace_overlay = "402nd_Armory\ui\HUD_Normal_CA.paa";
-		ace_overlayDirt = "402nd_Armory\ui\HUD_Dirt2_CA.paa";
-		ace_overlayCracked = "402nd_Armory\ui\HUD_Cracked_CA.paa";
-		ace_dustPath = "402nd_Armory\ui\HUD_Dust2_CA.paa";
+		ace_overlay = "\402nd_Armory\ui\HUD_Normal_CA.paa";
+		ace_overlayDirt = "\402nd_Armory\ui\HUD_Dirt2_CA.paa";
+		ace_overlayCracked = "\402nd_Armory\ui\HUD_Cracked_CA.paa";
+		ace_dustPath = "\402nd_Armory\ui\HUD_Dust2_CA.paa";
 	};
 	class 402nd_ODST_HUD_NC: G_Diving
 	{
@@ -39,9 +39,9 @@ class cfgGlasses
 		ace_resistance = 0.5;
 		ace_protection = 0.5;
 		ace_overlay = "";
-		ace_overlayDirt = "402nd_Armory\ui\HUD_Dirt2_CA.paa";
-		ace_overlayCracked = "402nd_Armory\ui\HUD_Cracked2_CA.paa";
-		ace_dustPath = "402nd_Armory\ui\HUD_Dust2_CA.paa";
+		ace_overlayDirt = "\402nd_Armory\ui\HUD_Dirt2_CA.paa";
+		ace_overlayCracked = "\402nd_Armory\ui\HUD_Cracked2_CA.paa";
+		ace_dustPath = "\402nd_Armory\ui\HUD_Dust2_CA.paa";
 	};
 };
 
