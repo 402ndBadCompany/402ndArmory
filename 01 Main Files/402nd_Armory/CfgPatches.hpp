@@ -1,3 +1,10 @@
+/*
+	CfgPatches
+	includes authors, name, url, and required addons
+*/
+
+// START OF FILE -----------------------------------------------------------------------------------------------------
+
 class CfgPatches
 {
 	class 402nd_Armory
@@ -16,3 +23,5 @@ class CfgPatches
 		{"V_FZ_Armor","V_FZ_Core","OPTRE_UNSC_Units_Army"};
 	};
 };
+
+// END OF FILE -----------------------------------------------------------------------------------------------------

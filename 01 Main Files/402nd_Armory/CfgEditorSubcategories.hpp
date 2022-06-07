@@ -1,17 +1,15 @@
 /*
-	preload 402nd_Armory addon
+	CfgEditorSubcategories
+	defines the pelican under the Rotary sub category for 3den
 */
 
 // START OF FILE -----------------------------------------------------------------------------------------------------
 
-class CfgAddons
+class CfgEditorSubcategories
 {
-	class PreloadAddons
+	class A_BD_EdSubCat_Rotary
 	{
-		class 402nd_Armory
-		{
-			list[]={"402nd_Armory"};
-		};
+		displayName="Rotary";
 	};
 };
 

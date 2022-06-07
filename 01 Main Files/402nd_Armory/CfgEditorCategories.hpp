@@ -1,18 +1,17 @@
 /*
-	preload 402nd_Armory addon
+	CfgEditorCategories
+	defines the 402nd UNSCDF category in 3den
 */
 
 // START OF FILE -----------------------------------------------------------------------------------------------------
 
-class CfgAddons
+class CfgEditorCategories
 {
-	class PreloadAddons
+	class A_BD_EdCat_402nd
 	{
-		class 402nd_Armory
-		{
-			list[]={"402nd_Armory"};
-		};
+		displayName="[402nd] UNSCDF";
 	};
+  
 };
 
 // END OF FILE -----------------------------------------------------------------------------------------------------
