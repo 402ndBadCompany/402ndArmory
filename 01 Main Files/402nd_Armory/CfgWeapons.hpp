@@ -379,13 +379,108 @@ class CfgWeapons
 	class 402nd_M52D_Sniper_Leafy: OPTRE_UNSC_M52D_Armor_Sniper
 	{
 		dlc="402nd Armory";
-		author="Azzamaean & Vespade";
+		author="Azzamean, Vespade & BoomMicGuy";
 		displayName="[402nd] [L] M52D (Sniper)";
 		picture="\optre_unsc_units\army\icons\odst_vest";
 		hiddenSelectionsTextures[]={"\V_FZ_Armor\data\Vests\V_M52_V_URB_CO.paa","\V_FZ_Armor\data\Vests\V_M52_URB_CO.paa","402nd_Armory\data\armor\ODSTLegs_BC_CO.paa","optre_unsc_units\army\data\ghillie_woodland_co.paa","402nd_Armory\data\armor\ODSTVest_BC_Leafy_CO.paa"};
 		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","V_FZ_Armor\Data\Vests\Materials\V_M52_O.rvmat"};
 	};
 	// END OF LEAFY
+
+	// START OF UNIFORMS
+	// Swap urban for an urban multicam black
+	class OPTRE_UNSC_Army_Uniform_OLI;
+	class UniformItem;
+	class 402nd_UR_Uniform: OPTRE_UNSC_Army_Uniform_OLI
+    {
+		dlc="402nd Armory";
+		scope=2;
+        author="Vespade & BoomMicGuy";
+        displayName="[402nd] [UR] Battle Dress Uniform";
+        picture="\optre_unsc_units\army\icons\army_uniform_DES";
+		CBRN_protection=1;
+        class ItemInfo: UniformItem
+        {
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass = 402nd_UR_Uniform;
+        };
+	};
+	// Perfect // Adjust this to work for Urban, Snow, Desert
+	class 402nd_GR_Uniform: OPTRE_UNSC_Army_Uniform_OLI
+    {
+		dlc="402nd Armory";
+		scope=2;
+        author="Vespade & BoomMicGuy";
+        displayName="[402nd] [GR] Battle Dress Uniform";
+        picture="\optre_unsc_units\army\icons\army_uniform_DES";
+		CBRN_protection=1;
+        class ItemInfo: UniformItem
+        {
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass = 402nd_GR_Uniform;
+        };
+	};
+	// I did good but will probably use the other
+	class 402nd_GR2_Uniform: OPTRE_UNSC_Army_Uniform_OLI
+    {
+		dlc="402nd Armory";
+		scope=2;
+        author="Vespade & BoomMicGuy";
+        displayName="[402nd] [GR2] Battle Dress Uniform";
+        picture="\optre_unsc_units\army\icons\army_uniform_DES";
+		CBRN_protection=1;
+        class ItemInfo: UniformItem
+        {
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass = 402nd_GR2_Uniform;
+        };
+	};
+	// TOO BRIGHT
+	class 402nd_DE_Uniform: OPTRE_UNSC_Army_Uniform_OLI
+    {
+		dlc="402nd Armory";
+		scope=2;
+        author="Vespade & BoomMicGuy";
+        displayName="[402nd] [DE] Battle Dress Uniform";
+        picture="\optre_unsc_units\army\icons\army_uniform_DES";
+		CBRN_protection=1;
+        class ItemInfo: UniformItem
+        {
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass = 402nd_DE_Uniform;
+        };
+	};
+	// TOO BRIGHT
+	class 402nd_SN_Uniform: OPTRE_UNSC_Army_Uniform_OLI 
+    {
+		dlc="402nd Armory";
+		scope=2;
+        author="Vespade & BoomMicGuy";
+        displayName="[402nd] [SN] Battle Dress Uniform";
+        picture="\optre_unsc_units\army\icons\army_uniform_DES";
+		CBRN_protection=1;
+        class ItemInfo: UniformItem
+        {
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass = 402nd_SN_Uniform;
+        };
+	};
+	// END OF UNIFORMS
 };
 
 // END OF FILE -----------------------------------------------------------------------------------------------------
