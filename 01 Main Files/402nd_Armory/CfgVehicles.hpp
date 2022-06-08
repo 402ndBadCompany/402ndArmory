@@ -13,6 +13,7 @@ class CfgVehicles
 
 	// START UNIFORM TEXTURES ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// START OF BDU TEXTURES
+	
 	class 402nd_GR_BDU: VES_BDU_V_Base
 	{
         scope=1;
@@ -21,11 +22,13 @@ class CfgVehicles
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_GR_BDU_CO.paa","\402nd_Armory\data\uniform\402nd_GR_BDU_CO.paa"};
 		uniformclass="402nd_GR_BDU";
 	};
+	
+	/*
 	class 402nd_UR_BDU: VES_BDU_V_Base
 	{
         scope=1;
 		model="\OPTRE_UNSC_Units\Army\uniform";
-		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
+		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"};
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_UR_BDU_CO.paa","\402nd_Armory\data\uniform\402nd_UR_BDU_CO.paa"};
 		uniformclass="402nd_UR_BDU";
 	};
@@ -33,13 +36,13 @@ class CfgVehicles
 	{
         scope=1;
 		model="\OPTRE_UNSC_Units\Army\uniform";
-		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
+		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"};
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_SN_BDU_CO.paa","\402nd_Armory\data\uniform\402nd_SN_BDU_CO.paa"};
 		uniformclass="402nd_SN_BDU";
 	};
 	
 	// REMOVED FOR MY OWN SAFETY
-	/*
+	
 	class 402nd_DE_BDU: VES_BDU_V_Base
 	{
         scope=1;
@@ -49,6 +52,7 @@ class CfgVehicles
 		uniformclass="402nd_DE_BDU";
 	};
 	*/
+	
 
 	// END OF BDU TEXTURES -----------------------------------------------------------------------------------
 	// START OF CUU TEXTURES -----------------------------------------------------------------------------------
@@ -57,15 +61,17 @@ class CfgVehicles
 	{
         scope=1;
 		model="\OPTRE_UNSC_Units\Army\uniform";
-		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
+		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"};
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_GR_CUU_CO.paa","\402nd_Armory\data\uniform\402nd_GR_CUU_CO.paa"};
 		uniformclass="402nd_GR_CUU";
 	};
+	
+	/*
 	class 402nd_UR_CUU: 402nd_CUU_V_Base
 	{
         scope=1;
 		model="\OPTRE_UNSC_Units\Army\uniform";
-		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
+		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"/};
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_UR_CUU_CO.paa","\402nd_Armory\data\uniform\402nd_UR_CUU_CO.paa"};
 		uniformclass="402nd_UR_CUU";
 	};
@@ -74,13 +80,13 @@ class CfgVehicles
 	{
         scope=1;
 		model="\OPTRE_UNSC_Units\Army\uniform";
-		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg",/*"A_SlimLeg"*/};
+		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"};
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_SN_CUU_CO.paa","\402nd_Armory\data\uniform\402nd_SN_CUU_CO.paa"};
 		uniformclass="402nd_SN_CUU";
 	};
 
 	// REMOVED FOR MY OWN SAFETY
-	/*
+	
 	class 402nd_DE_CUU: 402nd_CUU_V_Base
 	{
         scope=1;
@@ -90,7 +96,7 @@ class CfgVehicles
 		uniformclass="402nd_DE_CUU";
 	};
 	*/
-	
+
 	// END OF CUU TEXTURES
 	// END UNIFORM TEXTURES
 

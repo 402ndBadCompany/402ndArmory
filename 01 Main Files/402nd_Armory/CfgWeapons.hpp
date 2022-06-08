@@ -57,6 +57,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GRL_BC_CO.paa", "\402nd_Armory\data\headgear\Visors\ODSTVisor_GR_BC_CO.paa"};
 		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GRL_BC_CO.paa", "\402nd_Armory\data\headgear\Visors\ODSTVisor_GR_BC_CO.paa"};};
 	};
+	
+	/*
 	// Urban (UR)
 	class 402nd_CH252D_UR: 402nd_CH252D
 	{
@@ -73,6 +75,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_SN_BC_CO", "\402nd_Armory\data\headgear\Visors\ODSTVisor_SN_BC_CO.paa"};
 		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_SN_BC_CO", "\402nd_Armory\data\headgear\Visors\ODSTVisor_SN_BC_CO.paa"};};
 	};
+	*/
 	
 
 	// SQUAD SPECIFIC HELM --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -200,6 +203,7 @@ class CfgWeapons
 	
 	// EXTRA CUSTOM DP SHIT HERE -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// CUSTOM PERSONS DP
+	
 	/*
 	class 402nd_CH252D_AZZ_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Azzamean)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Azzamean_test_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Azzamean_test_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	class 402nd_CH252D_HAW_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Tuf)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Hawke_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Hawke_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
@@ -210,11 +214,15 @@ class CfgWeapons
 	class 402nd_CH252D_UND_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Underwood)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Underwood_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Underwood_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	class 402nd_CH252D_VES_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Mike)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Vespade_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Vespade_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	*/
+
 	// CAMO DP
 	class 402nd_CH252D_Leafy_dp: 402nd_CH252D_dp{displayName="[402nd] [GRL] CH252D Helmet";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GRL_BC_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GRL_BC_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	
+	/*
 	class 402nd_CH252D_UR_dp: 402nd_CH252D_dp{displayName="[402nd] [UR] CH252D Helmet";hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_UR_BC_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_UR_BC_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	class 402nd_CH252D_SN_dp: 402nd_CH252D_dp{displayName="[402nd] [SN] CH252D Helmet";hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_SN_BC_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"402nd_Armory\data\headgear\ODSTHelm_SN_BC_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
+	*/
+
 	// SQUAD SPECIFIC DP
 	class 402nd_CH252D_Longsword_dp: 402nd_CH252D_dp{displayName="[402nd] [GRS] CH252D Helmet (Longsword)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GR_BC_Longsword_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GR_BC_Longsword_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	class 402nd_CH252D_Broadsword_dp: 402nd_CH252D_dp{displayName="[402nd] [GRS] CH252D Helmet (Broadsword)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GR_BC_Broadsword_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GR_BC_Broadsword_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
@@ -223,6 +231,7 @@ class CfgWeapons
 
 	// END OF DP FOR CH252D
 	// START OF CH252R RECON
+	
 	class 402nd_CH252R: 402nd_CH252D
 	{
 		author="Azzamean, Vespade & BoomMicGuy";
@@ -241,8 +250,10 @@ class CfgWeapons
 			hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Helmets\Materials\V_S1ONIR.rvmat", ""}; // V_FZ_Armor\data\Helmets\Materials\V_S1ONIR_V.rvmat (Removed this path to make visor look nicer)
 		};
 	}; 
+	
 	// END OF CH252R RECON
 	// EXTRA CUSTOM SHIT HERE RECON
+	
 	class 402nd_CH252R_Leafy: 402nd_CH252R
 	{
 		author="Azzamean, Vespade & BoomMicGuy";
@@ -250,6 +261,24 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_GRL_BC_CO.paa", "\402nd_Armory\data\headgear\Visors\ODSTRVisor_GR_BC_CO.paa"};
 		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_GRL_BC_CO.paa", "\402nd_Armory\data\headgear\Visors\ODSTRVisor_GR_BC_CO.paa"};};
 	};
+	
+	/*
+	class 402nd_CH252R_UR: 402nd_CH252R
+	{
+		author="Azzamean, Vespade & BoomMicGuy";
+		displayName="[402nd] [UR] CH252R Helmet";
+		hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_UR_BC.paa", "\402nd_Armory\data\headgear\Visors\ODSTRVisor_UR_BC_CO.paa"};
+		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_UR_BC.paa", "\402nd_Armory\data\headgear\Visors\ODSTRVisor_UR_BC_CO.paa"};};
+	};
+	class 402nd_CH252R_SN: 402nd_CH252R
+	{
+		author="Azzamean, Vespade & BoomMicGuy";
+		displayName="[402nd] [SN] CH252R Helmet";
+		hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_SN_BC_CO.paa", "\402nd_Armory\data\headgear\Visors\ODSTRVisor_SN_BC_CO.paa"};
+		class ItemInfo: ItemInfo {hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_SN_BC_CO.paa", "\402nd_Armory\data\headgear\Visors\ODSTRVisor_SN_BC_CO.paa"};};
+	};
+	*/
+
 	// END OF CUSTOM RECON SHIT
 	// START OF RECON DP
 	class 402nd_CH252R_dp: 402nd_CH252D_dp
@@ -272,12 +301,17 @@ class CfgWeapons
 	};
 	// CUSTOM RECON DP
 	class 402nd_CH252R_Leafy_dp: 402nd_CH252R_dp{displayName="[402nd] [GRL] CH252R Helmet";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_GRL_BC_CO", "\V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_GRL_BC_CO", "\V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA.paa"};};};
-
+	
+	/*
+	class 402nd_CH252R_UR_dp: 402nd_CH252R_dp{displayName="[402nd] [UR] CH252R Helmet";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_UR_BC_CO", "\V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_UR_BC_CO", "\V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA.paa"};};};
+	class 402nd_CH252R_SN_dp: 402nd_CH252R_dp{displayName="[402nd] [SN] CH252R Helmet";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_SN_BC_CO", "\V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTRHelm_SN_BC_CO", "\V_FZ_Armor\Data\Helmets\V_S1ONIR_CLR_V_CA.paa"};};};
+	*/
+	
 	// END OF RECON DP
 	// START OF VESTS -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// 402nd BASE RIFLEMAN ARMOR
 	class OPTRE_UNSC_M52D_Armor_Rifleman;
-	class 402nd_Rifleman_GR: OPTRE_UNSC_M52D_Armor_Rifleman
+	class 402nd_Rifleman: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
 		dlc="402nd Armory";
 		author="Azzamean, Vespade & BoomMicGuy";
@@ -286,7 +320,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"\V_FZ_Armor\data\Vests\V_M52_V_URB_CO.paa","\V_FZ_Armor\data\Vests\V_M52_URB_CO.paa","\402nd_Armory\data\armor\ODSTLegs_BC_CO.paa","\optre_unsc_units\army\data\ghillie_woodland_co.paa","\402nd_Armory\data\armor\ODSTVest_GR_BC_CO.paa"};
 		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","\V_FZ_Armor\data\Vests\Materials\V_M52_O.rvmat"};
 	};
-		class 402nd_Rifleman_GLR: OPTRE_UNSC_M52D_Armor_Rifleman
+	class 402nd_Rifleman_Leafy: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
 		dlc="402nd Armory";
 		author="Azzamean, Vespade & BoomMicGuy";
@@ -296,7 +330,7 @@ class CfgWeapons
 		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","V_FZ_Armor\data\Vests\Materials\V_M52_O.rvmat"};
 	};
 	
-	// EXPERIMENTAL CAMOS TEST
+	/*
 	class 402nd_Rifleman_UR: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
 		dlc="402nd Armory";
@@ -314,8 +348,8 @@ class CfgWeapons
 		picture="\optre_unsc_units\army\icons\odst_vest";
 		hiddenSelectionsTextures[]={"\V_FZ_Armor\data\Vests\V_M52_V_URB_CO.paa","\V_FZ_Armor\data\Vests\V_M52_URB_CO.paa","\402nd_Armory\data\armor\ODSTLegs_BC_CO.paa","\optre_unsc_units\army\data\ghillie_woodland_co.paa","\402nd_Armory\data\armor\ODSTVest_SN_BC_CO.paa"};
 		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","\V_FZ_Armor\data\Vests\Materials\V_M52_O.rvmat"};
-	}; 
-	
+	};
+	*/
 
 	// END OF RIFLEMAN
 	// START OF CORPSMAN
@@ -325,7 +359,7 @@ class CfgWeapons
 		author="Azzamean, Vespade & BoomMicGuy";
 		displayName="[402nd] [GR] M52D (Corpsman)";
 		picture="\optre_unsc_units\army\icons\odst_vest";
-		hiddenSelectionsTextures[]={"V_FZ_Armor\data\Vests\V_M52_V_URB_CO","V_FZ_Armor\data\Vests\V_M52_V_URB_CO","402nd_Armory\data\armor\ODSTLegs_BC_CO","optre_unsc_units\army\data\ghillie_woodland_co","402nd_Armory\data\armor\ODSTVest_GR_BC_CO"};
+		hiddenSelectionsTextures[]={"V_FZ_Armor\data\Vests\V_M52_V_URB_CO","V_FZ_Armor\data\Vests\V_M52_V_URB_CO","402nd_Armory\data\armor\ODSTLegs_BC_CO","optre_unsc_units\army\data\ghillie_woodland_co","402nd_Armory\data\armor\ODSTVest_BC_GR_MED_CO"};
 		hiddenSelectionsMaterials[]={"V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","V_FZ_Armor\Data\Vests\Materials\V_M52_O.rvmat"};
 	};
 	// END OF CORPSMAN
@@ -436,6 +470,8 @@ class CfgWeapons
 			uniformClass = 402nd_GR_BDU;
         };
 	};
+	
+	/*
 	class 402nd_UR_BDU: OPTRE_UNSC_Army_Uniform_OLI
     {
 		dlc="402nd Armory";
@@ -472,7 +508,7 @@ class CfgWeapons
 	};
 
 	// REMOVED DESERT FOR MY OWN SAFETY
-	/*
+	
 	class 402nd_DE_BDU: OPTRE_UNSC_Army_Uniform_OLI
     {
 		dlc="402nd Armory";
@@ -491,7 +527,7 @@ class CfgWeapons
         };
 	};
 	*/
-	
+
 	// END OF BDU
 	// START OF CUU
 	class 402nd_GR_CUU: OPTRE_UNSC_Army_Uniform_OLI
@@ -511,6 +547,8 @@ class CfgWeapons
 			uniformClass = 402nd_GR_CUU;
         };
 	};
+	
+	/*
 	class 402nd_UR_CUU: OPTRE_UNSC_Army_Uniform_OLI
     {
 		dlc="402nd Armory";
@@ -547,7 +585,7 @@ class CfgWeapons
 	};
 	
 	// REMOVED DESERT FOR MY OWN SAFETY
-	/*
+	
 	class 402nd_DE_CUU: OPTRE_UNSC_Army_Uniform_OLI
     {
 		dlc="402nd Armory";
