@@ -17,6 +17,8 @@ The main branch is the most up to date version of the music mod.
 The main branch is the most up to date version of the factions mod.
 <br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2535351854) mod and enable in your A3 launcher. <br />
 
+### [Arma 3 Wiki](https://community.bistudio.com/wiki/Main_Page)
+
 ### Helpful Git Bash Commands to Remember
 <br /> ``` git clone [link] ``` <br />
 	<br /> *Clones a git repo to your local computer for use. Link referes to the link you can copy from the green code drop down.*<br />
