@@ -1,0 +1,34 @@
+class ACEX_Fortify_Presets {
+    class ASO_Fortify_Objects {
+        objects[] = {
+            {"Land_BagFence_Round_F", 5},
+            {"Land_BagFence_Short_F", 5},
+            {"Land_BagFence_Long_F", 10},
+            {"Land_Plank_01_4m_F", 10},
+            {"Land_BagBunker_Small_F", 25},
+            {"Land_HBarrierTower_F", 100},
+            {"Land_HBarrierWall4_F", 25},
+            {"Land_HBarrierWall_corner_F", 25},
+            {"Land_HBarrier_1_F", 5},
+            {"Land_BagBunker_Tower_F", 50},
+            {"Land_BagBunker_Large_F", 100},
+            {"Land_Cargo_Patrol_V1_F", 100}
+        };
+    };
+};
+
+enableDebugConsole = 1;
+respawnOnStart = 0;
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Mission Completed";
+		subtitle = "";
+		description = "Col. Kane Ashwood has been neutralized cutting off the head of the innsurectionist leadership.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
+	};
+};
