@@ -1,0 +1,5 @@
+SQUAD SPECIFIC UR SN
+
+Add UR and SN for Corpsman
+
+Hue of 160-170 for SN
