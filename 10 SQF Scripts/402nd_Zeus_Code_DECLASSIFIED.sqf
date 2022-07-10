@@ -22,6 +22,8 @@ copyToClipboard str AllPlayableUnitsItens;
 // lambs_wp_fnc_taskCamp
 // lambs_wp_fnc_taskAssault
 
+// USE THESE WITH SERVER ONLY IF FIRING FROM TRIGGER -------------
+
 _grp1 = [getMarkerPos "testSpawn2", east, ["O_Soldier_SL_F", "O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_F","O_Soldier_AR_F"],0] call BIS_fnc_spawnGroup;
 [_grp1, 1000, nil, nil, getmarkerPos "testRush"] spawn lambs_wp_fnc_taskRush;
 
@@ -31,6 +33,7 @@ _grp1 = [getMarkerPos "testSpawn", east, ["O_Soldier_SL_F", "O_Soldier_F","O_Sol
 _wpt1 = _grp1 addWaypoint [getMarkerPos "testMove",5]; 
 _wpt1 setWaypointType "MOVE";
 
+// USE THESE WITH SERVER ONLY IF FIRING FROM TRIGGER -------------
 
 doStop this; //Stop Soldiers from moving, will react to contact
 this disableAI "PATH"; //Stop Soldiers from moving, will not react to contact
@@ -47,7 +50,7 @@ _EndSplashScreen = {
 [] spawn _EndSplashScreen;
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------- //
-//Use with drake to make it stop firing
+//Use with drake to make it stop firing (Not really working for some reason, murder me later)
 if (isServer) then {
     private _groups = this getVariable "optre_draketurretcrewgroups";
 
