@@ -21,5 +21,9 @@
 #include "cfgGlasses.hpp"
 // START OF CfgWeapons
 #include "CfgWeapons.hpp"
+// START of CfgMusicClasses
+#include "CfgMusicClasses.hpp"
+// START of CfgMusic
+#include "CfgMusic.hpp"
 
 // END OF FILE -----------------------------------------------------------------------------------------------------

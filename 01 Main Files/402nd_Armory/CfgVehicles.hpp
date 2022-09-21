@@ -23,7 +23,7 @@ class CfgVehicles
 		uniformclass="402nd_GR_BDU";
 	};
 	
-	/*
+	
 	class 402nd_UR_BDU: VES_BDU_V_Base
 	{
         scope=1;
@@ -32,6 +32,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_UR_BDU_CO.paa","\402nd_Armory\data\uniform\402nd_UR_BDU_CO.paa"};
 		uniformclass="402nd_UR_BDU";
 	};
+	/*
 	class 402nd_SN_BDU: VES_BDU_V_Base
 	{
         scope=1;
@@ -66,16 +67,16 @@ class CfgVehicles
 		uniformclass="402nd_GR_CUU";
 	};
 	
-	/*
+	
 	class 402nd_UR_CUU: 402nd_CUU_V_Base
 	{
         scope=1;
 		model="\OPTRE_UNSC_Units\Army\uniform";
-		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"/};
+		hiddenSelections[]={"camo","camo2","insignia","clan","A_BaseLeg"};
 		hiddenSelectionsTextures[]={"\402nd_Armory\data\uniform\402nd_UR_CUU_CO.paa","\402nd_Armory\data\uniform\402nd_UR_CUU_CO.paa"};
 		uniformclass="402nd_UR_CUU";
 	};
-	
+	/*
 	class 402nd_SN_CUU: 402nd_CUU_V_Base
 	{
         scope=1;
