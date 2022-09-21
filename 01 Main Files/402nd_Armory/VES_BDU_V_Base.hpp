@@ -1,5 +1,6 @@
 	// Uniforms (Textures)
 	class OPTRE_UNSC_Army_Soldier_WDL;
+    
     class 402nd_CUU_V_Base: OPTRE_UNSC_Army_Soldier_WDL
 	{
 		class HitPoints
