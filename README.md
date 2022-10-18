@@ -9,10 +9,6 @@ The main branch is the most up to date version of the armory mod.
 <br /> **For Manual Use:** Download the zip and install the 02 Packaged PBO into your A3 modlist. <br />
 <br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2378333056) mod and enable in your A3 launcher. <br />
 
-## How To Use 402nd Music
-The main branch is the most up to date version of the music mod.
-<br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2632313882) mod and enable in your A3 launcher. <br />
-
 ## How To Use ALiVE Factions
 The main branch is the most up to date version of the factions mod.
 <br /> **For Steam Workshop Use:** Subscribe to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2535351854) mod and enable in your A3 launcher. <br />
