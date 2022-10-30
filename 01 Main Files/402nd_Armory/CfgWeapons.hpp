@@ -173,7 +173,7 @@ class CfgWeapons
 	class 402nd_CH252D_REN_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Renalds)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Renalds_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_BC_Renalds_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	class 402nd_CH252D_UND_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Underwood)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\Ballista\ODSTHelm_BC_Underwood_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\Ballista\ODSTHelm_BC_Underwood_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 	class 402nd_CH252D_VES_dp: 402nd_CH252D_dp{displayName="[402nd] [C] CH252D Helmet (Mike)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\Misc\ODSTHelm_BC_Vespade_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\Misc\ODSTHelm_BC_Vespade_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
-	
+	class 402nd_CH252D_WEB_dp: 402nd_CH252D_dp{displayName="[402nd] CH252D Helmet (Weber)";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\Longsword\ODSTHelm_GR_BC_Longsword_Weber_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\Longsword\ODSTHelm_GR_BC_Longsword_Weber_CO.paa", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
 
 	// CAMO DP
 	class 402nd_CH252D_Leafy_dp: 402nd_CH252D_dp{displayName="[402nd] [GRL] CH252D Helmet";hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GRL_BC_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA"};class ItemInfo: ItemInfo{hiddenSelectionsTextures[]={"\402nd_Armory\data\headgear\ODSTHelm_GRL_BC_CO", "\V_FZ_Armor\Data\Helmets\V_CH252D_CLR_V_CA.paa"};};};
@@ -453,7 +453,140 @@ class CfgWeapons
 		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","V_FZ_Armor\Data\Vests\Materials\V_M52_O.rvmat"};
 	};
 	// END OF SNIPER
-
+	// START OF CUSTOM ARMOR
+	class SOTF_M52D_Shooter : OPTRE_UNSC_M52D_Armor
+	{
+		dlc = "SOTF_Aux"
+		Scope = 2;
+		scopeArsenal = 2;
+		author = "Durza"
+		displayName = "[SOTF] M52D Misc (Shooter)"
+		model = "\OPTRE_UNSC_Units\Army\armor.p3d";
+		hiddenSelectionsTextures[] =
+		{
+			"OPTRE_UNSC_Units\Army\data\Vest_odst_co.paa",
+			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
+			"OPTRE_UNSC_Units\Army\data\Legs_odst_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"SOTF_Aux_Mod\Armor\Misc\V_M52_O_Misc_Shooter_CO.paa"
+		};
+		class ItemInfo : VestItem
+		{
+			vestType = "Rebreather";
+			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+			mass = 80;
+			modelSides[] = { 6 };
+			containerClass = "Supply200";
+			hiddenSelections[] =
+			{
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			//"A_Base",
+			//"A_ChestArmor",
+			"A_Ghillie",
+			//"A_KneesLeft",
+			//"A_KneesRight",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			//"A_ODST",
+			//"A_ShinArmorLeft",
+			//"A_ShinArmorRight",
+			//"A_TacPad",
+			//"A_ThighArmorLeft",
+			//"A_ThighArmorRight",
+			"AS_BaseLeft",
+			"AS_BaseRight",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_MediumLeft",
+			"AS_MediumRight",
+			"AS_ODSTCQBLeft",
+			"AS_ODSTCQBRight",
+			//"AS_ODSTLeft",
+			//"AS_ODSTRight",
+			"AS_ODSTSniperLeft",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_AR",
+			"AP_BR",
+			"AP_Canteen",
+			"AP_GL",
+			"AP_Knife",
+			"AP_MGThigh",
+			"AP_AR",
+			"AP_Pack",
+			//"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			"AP_SMG",
+			"AP_Sniper",
+			//"AP_Thigh",
+			"AP_Frag",
+			//"AP_Smoke",
+			"APO_AR",
+			"APO_BR",
+			//"APO_Knife",
+			//"APO_SMG",
+			"APO_Sniper",
+			"CustomKit_Scorch"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Legs
+				{
+					hitpointName = "HitLegs";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Hands
+				{
+					hitpointName = "HitHands";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 45;
+					passThrough = 0.1;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					armor = 45;
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
 	// START OF UNIFORMS ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	class OPTRE_UNSC_Army_Uniform_OLI;
 	class UniformItem;
