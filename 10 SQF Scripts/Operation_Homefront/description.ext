@@ -1,0 +1,161 @@
+author			= "BoomMicGuy";
+onLoadName		= "Operation: Homefront";
+loadScreen= "Madrigal.jpg";
+overviewPicture= "Madrigal.jpg";
+onLoadMission = Innsurection forces have taken a UNSCDF recruitment center. Pacify them.;
+overviewText = Innsurection forces have taken a UNSCDF recruitment center. Pacify them.;
+
+enableDebugConsole = 1;
+
+class Header
+{
+	gameType =  Zeus;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 64;	// maximum number of players the mission supports
+};
+
+// [alarm_def, ["defconstage", 1500, 10]] remoteExec ["say3d", 0, true]; 
+// Sounds -------------------------------------
+class CfgSounds
+{
+    sounds[] = {};
+    class bosnia
+    {
+        name = "bosnia";
+        sound[] = {\sound\bosnia.ogg, db+0, 1};
+        titles[] = {};
+    };
+    class EG_Jump_Exit
+    {
+        name = "EG_Jump_Exit";
+        sound[] = {\sound\EG_Jump_Exit.ogg, db+0, 1};
+        titles[] = {};
+    };
+	class dot_slipspace
+    {
+        name = "dot_slipspace";
+        sound[] = {\sound\dot_slipspace.ogg, db+0, 1};
+        titles[] = {};
+    };
+    class slipspace
+    {
+        name = "slipspace";
+        sound[] = {\sound\slipspace.ogg, db+0, 1};
+        titles[] = {};
+    };
+    class ambience_covie_inv
+    {
+        name = "ambience_covie_inv";
+        sound[] = {\sound\ambience_covie_inv.ogg, db+0, 1};
+        titles[] = {};
+    };
+    class Preppods
+    {
+        name = "Preppods";
+        sound[] = {\sound\Preppods.ogg, db+0, 1};
+        titles[] = {};
+    };
+    class alarm
+    {
+        name = "alarm";
+        sound[] = {\sound\alarm.ogg, db+0, 1};
+        titles[] = {};
+    };
+        class alarm2
+    {
+        name = "alarm2";
+        sound[] = {\sound\alarm2.ogg, db+0, 1};
+        titles[] = {};
+    };
+    class radiocall1
+    {
+        name = "radiocall1";
+        sound[] = {\sound\radiocall1.ogg, db+0, 1};
+        titles[] = {
+            0, "All stations this is pioneer on all frequencies break the Office of Naval Intelligence has authorized ground teams to push towards the Enix Relay Site",
+            10, "break QRF is on standby break attempt to reestablish link to deep space COMSAT out"
+};
+    };
+    class radiocall2
+    {
+        name = "radiocall2";
+        sound[] = {\sound\radiocall2.ogg, db+0, 1};
+        titles[] = {
+            0, "ALCON ALCON THIS IS PIONEER ON ALL FREQUENCIES BREAK TWO CCS CLASS BATTLECRUISERS HAVE JUST EXITED SLIPSPACE BREAK ALL UNSC FORCES ARE TO FORGO CURRENT RULES OF ENGAGEMENT", 
+            9, "BREAK ALL INNSURECTION FORCES ARE NOW FRIENDLY BREAK PREPARE FOR CIVILIAN EVACUATION ORDERS OUT"
+};
+    };
+    class radiocall3
+    {
+        name = "radiocall3";
+        sound[] = {\sound\radiocall3.ogg, db+0, 1};
+        titles[] = {
+            0, "ALCON THIS IS PIONEER ON ALL FREQUENCIES BREAK TWO MORE CCS CLASS BATTLECRUISERS HAVE JUST EXITED SLIPSPACE BREAK THEY ARE TARGETING THE ONI FACILITY AND LAREDO BASE",
+            9, "BREAK ALL FORCES EVACUATE THOSE SITES IMMEDIATELY OUT"
+};
+    };
+    class radiocall4
+    {
+        name = "radiocall4";
+        sound[] = {\sound\radiocall4.ogg, db+0, 1};
+        titles[] = {
+            0, "ALCON THIS IS PIONEER ON ALL FREQUEINCIES BREAK A CAS CLASS ASSAULT CARRIER HAS JUST EXITED SLIP BREAK ALL EVACUATION PLANS FOR THE WEST SIDE ARE A NO GO",
+            9, "I SAY AGAIN ALL EVAC SHUTTLES ON THE WEST SIDE ARE A NO GO BREAK ALL REMAINING UNSC FORCES ARE TO EVACUATE VIA BRADLEY AFB OUT"
+};
+    };
+    class radiocall5
+    {
+        name = "radiocall5";
+        sound[] = {\sound\radiocall5.ogg, db+0, 1};
+        titles[] = {0, "All stations this is pioneer transmitting on all frequencies break message from UNSC Billy of Idol break if you want to leave now is the time to do it out"};
+    };
+};
+// CINEMATICS -------------------------------------
+class RscText
+{
+  access = 0;
+  type = 0;
+  idc = -1;
+  style = 0;
+  w = 0.1; h = 0.05;
+  //x and y are not part of a global class since each rsctext will be positioned 'somewhere'
+  font = "TahomaB";
+  sizeEx = 0.04;
+  colorBackground[] = {0,0,0,0};
+  colorText[] = {1,1,1,1};
+  text = "";
+  fixedWidth = 0;
+  shadow = 0;
+};
+
+class RscTitles
+{
+    class MY_cinematicBorders
+    {
+        idd = -1; 
+        duration = 1e6; //1e6 seconds
+        fadeIn = 1; //1 second to fade in
+        fadeOut = 1; //1 second to fade out
+        onLoad = "uiNamespace setVariable ['MY_cinematicBorders', _this select 0]"; 
+        onUnLoad = ""; 
+        class Controls
+        {
+            class Top: RscText
+            {
+                idc = 1200; 
+                colorText[]={0,0,0,0};
+                text="";
+                colorBackground[]={0,0,0,1};
+                x = safezoneX;
+                y = safezoneY;
+                w = safezoneW;
+                h = 0.15*safezoneH;
+            };
+            class Bottom: Top
+            {
+                idc = 1201; 
+                y = safezoneY+0.85*safezoneH;
+            };
+        };
+    };
+};
