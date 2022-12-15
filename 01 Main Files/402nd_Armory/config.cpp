@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 /*
 	402nd Bad Company Armory
 	Azzamean, Vespade & BoomMicGuy
