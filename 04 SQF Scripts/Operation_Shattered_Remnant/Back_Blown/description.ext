@@ -1,0 +1,26 @@
+loadScreen= "checkpoint1.jpg";
+overviewPicture= "checkpoint1.jpg";
+onLoadMission = UNSC forces will man two checkpoints on the CMA side of Shitter's Full AFB.;
+overviewText = UNSC forces will man two checkpoints on the CMA side of Shitter's Full AFB.;
+
+respawnOnStart = 0;
+enableDebugConsole = 1;
+
+class Header
+{
+	gameType =  Zeus;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 64;	// maximum number of players the mission supports
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class alarmRaid
+	{
+		name = "alarmraid";
+		sound[] = {\sound\raid.ogg, db+0, 1};
+		titles[] = {};
+	};
+};

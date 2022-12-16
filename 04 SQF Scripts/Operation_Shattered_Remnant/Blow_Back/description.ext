@@ -1,0 +1,26 @@
+loadScreen= "capella.jpg";
+overviewPicture= "capella.jpg";
+onLoadMission = Radiation storms are leaking in from the Glassed Plains;
+overviewText = Radiation storms are leaking in from the Glassed Plains;
+
+respawnOnStart = 0;
+enableDebugConsole = 1;
+
+class Header
+{
+	gameType =  Zeus;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 64;	// maximum number of players the mission supports
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	
+	class alarmRaid
+	{
+		name = "alarmraid";
+		sound[] = {\sound\raid.ogg, db+0, 1};
+		titles[] = {};
+	};
+};
