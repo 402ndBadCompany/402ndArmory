@@ -1,3 +1,4 @@
+/*
 class CfgPatches
 {
 	class 402nd_LMG
@@ -14,6 +15,7 @@ class CfgPatches
 };
 class PointerSlot_Rail;
 class MuzzleSlot;
+class compatibleItems;
 class CfgWeapons
 {
 	class OPTRE_MachineGun_Base;
@@ -52,3 +54,4 @@ class CfgWeapons
 		};
 	};
 };
+*/
