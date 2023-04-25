@@ -1,0 +1,79 @@
+||AUX MOD TEAM UPDATE 1||
+12/17/2022 @ 8:18pm
+402nd Aux Mod Changelog
+
+Added -
+Weber Helmet
+Kenny Helmet
+Martinez Helmet
+Raven Armor
+W.I.P. Load Screen
+
+Mods Folded Into Aux Mod (With Permission/Abandonware) -
+WMO - Walkable Moving Objects - Bloodwyn
+Advanced Towing - duda
+Advanced Urban Rappelling - Ruppertie, duda
+Advanced Sling Loading - duda
+Remove stamina - Muttley
+Remove stamina - ACE 3 - Muttley
+Animate - ooga booga, ASmallDinosaur
+Advanced Rappelling - Reworked - Sindeg
+PSZ: Lower Weapon in Inventory - CZELFAJER, PSZ Mod Team
+CH View Distance - Champ
+Reduced Weapon Sway by 75% - 关于Apex战斗桶行证让我电子阳伟这件事
+No More Aircraft Bouncing - Scepter
+Freestyles Crash Landing - Freestyle_Build
+Spyder Addons - SpyderBlack723
+Gear Functions - Flax
+BackpackOnChest - Redux - mjc4wilton
+ITC Land Systems - VKing, ToadBall, Yax
+Interiors for CUP - orangeppop, FuNKo1, Basilisk Beheader, 16 Air Assault Milsim Commuinity
+HEV Patch - Ansible2
+Brush Clearing - Ampersand
+Freefall Fix - Leopard20
+Better Inventory - [Phonix] Xaneas
+
+Updated -
+Backend code
+Filepaths
+
+Removed -
+Unneeded files 
+
+||AUX MOD TEAM UPDATE 2||
+12/19/2022 @ 8:52pm
+402nd Aux Mod Changelog
+
+Hotfix 1219202201
+
+Fixed dp file paths
+Fixed base armor file paths
+I think I fixed cfgGlasses picture file path
+
+Found .rvmat file path issue with FZ
+\402nd_Armory\VES_BDU_V_Base.hpp :excluded
+
+Missing File Summary
+V_CH252D.rvmat : a3\data_f\env_co.paa
+
+\402nd_Armory: DePbo:missing file(s)
+dll's pbo_Make failed with 'Error(s) detected'
+</MakePbo>
+402nd_Armory.pbo not produced due to error(s)
+
+||AUX MOD TEAM UPDATE 3||
+12/23/2022 @ 9:28pm
+402nd Aux Mod Changelog
+
+Hotfix 1323202202
+
+Fixed cfgGlasses file path
+
+||AUX MOD TEAM UPDATE 4||
+4/24/2023 @ 8:37pm
+402nd Aux Mod Changelog
+
+Fixed hidden Selections for 402nd Headgear
+Added Ghillie option for 402nd Headgear
+
+Added Sabre Squadron Falchion texture

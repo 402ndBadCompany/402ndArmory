@@ -11,6 +11,10 @@ class CfgEditorSubcategories
 	{
 		displayName="Rotary";
 	};
+	class A_BD_EdSubCat_Plane
+	{
+		displayName="Plane";
+	};
 };
 
 // END OF FILE -----------------------------------------------------------------------------------------------------

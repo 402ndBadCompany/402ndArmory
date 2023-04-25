@@ -6,7 +6,7 @@ class Light_of_Aidan
 	name = "Light of Aidan";
 	sound[] = {"402nd_Armory\music\402ndSpecial\Light_of_Aidan.ogg",1,1};
 	theme = "402ndSpecial";
-	duration= "150";
+	duration= 150;
 	musicClass = "402ndSpecial";
 };
 class Bad_Company
@@ -14,15 +14,15 @@ class Bad_Company
 	name = "Bad Company Theme - Copyright Warning";
 	sound[] = {"402nd_Armory\music\402ndSpecial\Bad_Company.ogg",1,1};
 	theme = "402ndSpecial";
-	duration= "288";
+	duration= 288;
 	musicClass = "402ndSpecial";
 };
 class The_Beast_Bachlor_Pad
 {
 	name = "The Beast - Copyright Warning";
-	sound[] = {"402nd_Armory\music\402ndSpecial\The_Beast_Bachlor_Pad.ogg",db+0,1};
+	sound[] = {"402nd_Armory\music\402ndSpecial\The_Beast_Bachlor_Pad.ogg",1,1};
 	theme = "402ndSpecial";
-	duration= "152";
+	duration= 152;
 	musicClass = "402ndSpecial";
 };
 //AceCombat.................................................................................................................................
