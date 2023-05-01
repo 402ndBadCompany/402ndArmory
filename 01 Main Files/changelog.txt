@@ -77,3 +77,9 @@ Fixed hidden Selections for 402nd Headgear
 Added Ghillie option for 402nd Headgear
 
 Added Sabre Squadron Falchion texture
+
+||AUX MOD TEAM UPDATE 5||
+4/30/2023 @ 9:41pm
+402nd Aux Mod Changelog
+
+Added Urban Light
