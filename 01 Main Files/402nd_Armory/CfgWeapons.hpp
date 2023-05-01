@@ -557,7 +557,7 @@ class CfgWeapons
 			//"AP_Pistol",
 			"AP_Rounds",
 			"AP_SG",
-			//"AP_SMG",
+			"AP_SMG",
 			"AP_Sniper",
 			"AP_Thigh",
 			"AP_Frag",
