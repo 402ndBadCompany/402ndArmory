@@ -10,10 +10,10 @@
 
 class CfgWeapons
 {
-	// Helmets
+	// Inheretance Classess
 	class OPTRE_UNSC_CH252D_Helmet;
 	class HeadgearItem;
-	
+	class VestItem;
 	// CREATE CH252D FROM OPTRE UNSC CH252D
 
 	class 402nd_CH252D: OPTRE_UNSC_CH252D_Helmet
@@ -486,6 +486,91 @@ class CfgWeapons
 		hiddenSelectionsTextures[]={"\V_FZ_Armor\data\Vests\V_M52_V_URB_CO.paa","\V_FZ_Armor\data\Vests\V_M52_URB_CO.paa","\402nd_Armory\data\armor\Base\ODSTLegs_BC_CO.paa","\optre_unsc_units\army\data\ghillie_woodland_co.paa","\402nd_Armory\data\armor\Base\ODSTVest_UR_BC_CO.paa"};
 		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","\V_FZ_Armor\data\Vests\Materials\V_M52_O.rvmat"};
 	};
+	class 402nd_M52D_Light_UR: OPTRE_UNSC_M52D_Armor_Scout
+	{
+		dlc="402nd Armory";
+		author="402nd Aux Mod Team";
+		displayName="[402nd] [UR] M52D (Light)";
+		picture="\optre_unsc_units\army\icons\odst_vest";
+		hiddenSelectionsTextures[]={"\V_FZ_Armor\data\Vests\V_M52_V_URB_CO.paa","\V_FZ_Armor\data\Vests\V_M52_URB_CO.paa","\402nd_Armory\data\armor\Base\ODSTLegs_BC_CO.paa","\optre_unsc_units\army\data\ghillie_woodland_co.paa","\402nd_Armory\data\armor\Base\ODSTVest_UR_BC_CO.paa"};
+		hiddenSelectionsMaterials[]={"\V_FZ_Armor\data\Vests\Materials\V_M52_V.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52.rvmat","\V_FZ_Armor\data\Vests\Materials\V_M52_L.rvmat","","\V_FZ_Armor\data\Vests\Materials\V_M52_O.rvmat"};
+		class ItemInfo : VestItem
+		{
+			vestType = "Rebreather";
+			uniformModel = "\OPTRE_UNSC_Units\Army\armor.p3d";
+			mass = 80;
+			modelSides[] = { 6 };
+			containerClass = "Supply200";
+			class HitpointsProtectionInfo
+            {
+                class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
+                class Arms: Abdomen {hitpointName="HitArms";};
+                class Body: Abdomen {hitpointName="HitBody";};
+                class Chest: Abdomen {hitpointName="HitChest";};
+                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
+                class Hands: Abdomen {hitpointName="HitHands";};
+                class Legs: Abdomen {hitpointName="HitLegs";};
+                class Neck: Abdomen {hitpointName="HitNeck";};
+            };
+			hiddenSelections[] =
+			{
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			//"A_Base",
+			//"A_ChestArmor",
+			"A_Ghillie",
+			//"A_KneesLeft",
+			//"A_KneesRight",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			//"A_ODST",
+			//"A_ShinArmorLeft",
+			//"A_ShinArmorRight",
+			"A_TacPad",
+			//"A_ThighArmorLeft",
+			//"A_ThighArmorRight",
+			"AS_BaseLeft",
+			"AS_BaseRight",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_MediumLeft",
+			"AS_MediumRight",
+			"AS_ODSTCQBLeft",
+			"AS_ODSTCQBRight",
+			"AS_ODSTLeft",
+			"AS_ODSTRight",
+			"AS_ODSTSniperLeft",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_AR",
+			"AP_BR",
+			//"AP_Canteen",
+			"AP_GL",
+			//"AP_Knife",
+			"AP_MGThigh",
+			"AP_AR",
+			"AP_Pack",
+			//"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			//"AP_SMG",
+			"AP_Sniper",
+			"AP_Thigh",
+			"AP_Frag",
+			"AP_Smoke",
+			"APO_AR",
+			"APO_BR",
+			"APO_Knife",
+			//"APO_SMG",
+			"APO_Sniper",
+			"CustomKit_Scorch"
+			};
+		};
+	};
 	// END OF SCOUT
 	// START OF SNIPER
 	class OPTRE_UNSC_M52D_Armor_Sniper;
@@ -519,7 +604,6 @@ class CfgWeapons
 	// END OF SNIPER
 	// START OF CUSTOM ARMOR
 	// BALLISTA
-	class VestItem;
 	class 402nd_M52D_Raven : OPTRE_UNSC_M52D_Armor_Sniper
 	{
 		dlc = "402nd Armory";
